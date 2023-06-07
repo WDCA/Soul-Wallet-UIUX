@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Roboto:wght@100;300;400&display=swap');
+
+body{
+    position: absolute;
+}
+
+.basebox{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.upperportion{
+    position: absolute;
+    height: 50vh;
+    width: 97.5%;
+    left: 50%;
+    transform: translate(-50%);
+    >img{
+        height: 100%;
+        width: 100%;
+        object-fit: cover;
+    }
+}
+
+.status{
+    height: 30vh;
+    width: 30vw;
+    padding: 40px;
+    position: absolute;
+    background-color: rgba(49, 49, 49, 0.649);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    border-radius: 0.5rem;
+    >h1{
+        margin-top: 2rem;
+    }
+}
+
+.lowerportion{
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%);
+    height: auto;
+    width: 97.5%;
+    /* background-color: rgba(240, 248, 255, 0.295); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: hidden;
+}
+
+.coininfo{
+    height: 2rem;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.582);
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    color: white;
+    border-color: aliceblue;
+    box-shadow: 0px 2px #88888859;
+    cursor: pointer;
+    border-radius: 0.5rem;
+    transition: 0.4s;
+    &:hover{
+        background-color: rgba(240, 248, 255, 0.31);
+        margin-left: 20px;
+    }
+}
