@@ -50,3 +50,14 @@ body{
 
     }
 }
+
+@media screen and (max-width:912px) {
+    .buy-centerdiv{
+        >input{
+            width: 50vw;
+        }
+        >a>button{
+            width: 20vw;
+        }
+    }
+}

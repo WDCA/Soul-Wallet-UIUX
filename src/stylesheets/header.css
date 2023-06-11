@@ -142,12 +142,29 @@
 
 @media screen and (max-width: 820px) {
     .navbar>img{
-        height: 50px;
-        width: 50px;
+        height: 40px;
+        width: 40px;
+    }
+
+    .search{
+        width: 40%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    #searchbox{
+        width: 100px;
+    }
+
+    .active{
+        width: 50%;
     }
 
     .features{
         width: 50%;
+        display: flex;
+        justify-content: space-around;
     }
     
 }

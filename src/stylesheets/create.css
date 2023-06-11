@@ -39,3 +39,13 @@ body{
         }
     }
 }
+
+@media screen and (max-width:912px) {
+    .buy-centerdiv{
+        width: 80%;
+    }
+
+    .name-input>button{
+        width: 20vw;
+    }
+}

@@ -111,3 +111,34 @@ body{
         }
     }
 }
+
+@media screen and (max-width:912px) {
+    .headback{
+        width: 100%;
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%);
+
+        >.headlines{
+            height: 40%;
+            width: 90%;
+        }
+    }
+
+    .data{
+        width: 90%;
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%);
+        padding: 20px;
+    }
+
+    .contacts{
+        width: 50%;
+        position: absolute;
+        top: 150%;
+        left: 0;
+    }
+}
