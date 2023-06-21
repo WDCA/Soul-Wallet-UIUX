@@ -100,12 +100,12 @@ body{
         justify-content: space-around;
 
         >a>i{
-            color: #f3f3f3;
+            color: #c2c2c2;
             font-size: 1.5rem;
             transition: all 0.4s;
             &:hover{
                 margin-bottom: 1rem;
-                color: black;
+                color: rgb(254, 254, 254);
             }
         }
     }
