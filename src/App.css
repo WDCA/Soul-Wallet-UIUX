@@ -9,5 +9,11 @@
 body{
     height: 100%;
     width: 100%; 
-    background-color: black;
+    background-color: #202020;
+}
+
+.parent-div{
+    height: 100%;
+    width: 100%;
+    display: flex;
 }

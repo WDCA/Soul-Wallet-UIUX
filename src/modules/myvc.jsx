@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Myvc = () => {
   return (
-    <>
+    <div className='parent-div'>
     <Header/>
     <div className="buy-centerdiv">
         <h2 id='buy-vc-headline'>My Verifiable Credentials</h2>
@@ -32,7 +32,7 @@ const Myvc = () => {
             </div>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

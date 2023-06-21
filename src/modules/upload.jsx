@@ -5,7 +5,7 @@ const Upload = () => {
     const [buttonvalue,setvalue] = useState(false);
     const Show = ()=>setvalue(!buttonvalue);
   return (
-    <>
+    <div className='parent-div'>
     <Header/>
     <div className="buy-centerdiv">
         <h2 id='create-headline'>Upload Your Wallet</h2>
@@ -23,7 +23,7 @@ const Upload = () => {
     <div className={buttonvalue ?"remark":"nothing"}>
         <h3>Uploaded</h3>
     </div>
-    </>
+    </div>
   )
 }
 

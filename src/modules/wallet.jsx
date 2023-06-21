@@ -4,7 +4,7 @@ import chart from '../images/chart.jpg';
 
 const wallet = () => {
   return (
-    <>
+    <div className='parent-div'>
     <Header/>
     <div className="basebox">
         <div className="upperportion">
@@ -24,7 +24,7 @@ const wallet = () => {
           <div className="coininfo">coin Name</div>
         </div>
     </div>
-    </>
+    </div>
   )
 }
 

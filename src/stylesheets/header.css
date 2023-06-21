@@ -1,7 +1,7 @@
 .navbar{
     height: 7vh;
     width: 100%;
-    background-color: #1d1d1d89;
+    background-color: #00000069;
     position: sticky;
     display: flex;
     align-items: center;
@@ -101,7 +101,7 @@
     align-items: first baseline;
     justify-content: space-between;
     top: -100%;
-    transition: all linear 0.3s;
+    transition: all linear 0.3s cubic-bezier(0.445, 0.05, 0.55, 0.95);
 }
 
 .notactive>a{

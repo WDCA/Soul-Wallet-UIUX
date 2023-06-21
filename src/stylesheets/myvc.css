@@ -7,6 +7,7 @@ body{
 #buy-vc-headline{
     position: absolute;
     top: 5%;
+    color: black;
 }
 
 .vcinfo{
@@ -31,6 +32,7 @@ body{
     }
     >h5{
         margin-top: 2rem;
+        color: black;
     }
 
     >a{

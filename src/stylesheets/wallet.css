@@ -9,7 +9,7 @@ body{
     height: 100%;
     width: 100%;
     top: 0;
-    background-color: rgb(0, 0, 0);
+    background-color: #050505;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -66,18 +66,18 @@ body{
 .coininfo{
     height: 2rem;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.582);
+    background-color: #fbfaf5;
     display: flex;
     align-items: center;
     padding-left: 20px;
-    color: white;
-    border-color: aliceblue;
+    color: #333332;
+    border-color: rgb(188, 188, 188);
     box-shadow: 0px 2px #88888859;
     cursor: pointer;
     border-radius: 0.5rem;
     transition: 0.4s;
     &:hover{
-        background-color: rgba(240, 248, 255, 0.31);
+        background-color: white;
         margin-left: 20px;
     }
 }

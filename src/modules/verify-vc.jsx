@@ -5,7 +5,7 @@ const Verify = () => {
     const [buttonvalue,setvalue] = useState(false);
     const Show = ()=>setvalue(!buttonvalue);
   return (
-    <>
+    <div className='parent-div'>
     <Header/>
     <div className="buy-centerdiv">
         <h3 id='verify-vc-headline'>Verify Your VC</h3>
@@ -17,7 +17,7 @@ const Verify = () => {
     <div className={buttonvalue ?"remark":"nothing"}>
         <h3>Verified</h3>
     </div>
-    </>
+    </div>
   )
 }
 

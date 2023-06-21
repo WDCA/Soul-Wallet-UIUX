@@ -5,7 +5,7 @@ const Create = () => {
     const [buttonvalue,setvalue] = useState(false);
     const Show = ()=>setvalue(!buttonvalue);
   return (
-    <>
+    <div className='parent-div'>
     <Header/>
     <div className="buy-centerdiv">
         <h2 id='create-headline'>Create New Wallet</h2>
@@ -17,7 +17,7 @@ const Create = () => {
     <div className={buttonvalue ?"remark":"nothing"}>
         <h3>Created</h3>
     </div>
-    </>
+    </div>
   )
 }
 

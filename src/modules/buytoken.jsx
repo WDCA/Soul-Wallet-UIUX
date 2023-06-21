@@ -5,7 +5,7 @@ const Buytoken = () => {
     const [buttonvalue,setvalue] = useState(false);
     const Show = ()=>setvalue(!buttonvalue);
   return (
-    <>
+    <div className='parent-div'>
     <Header/>
     <div className="buytoken-centerdiv">
         <h2>Payment page</h2>
@@ -34,7 +34,7 @@ const Buytoken = () => {
     <div className={buttonvalue ?"remark":"nothing"}>
         <h3>Payment Successful</h3>
     </div>
-    </>
+    </div>
   )
 }
 
