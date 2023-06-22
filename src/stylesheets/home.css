@@ -111,6 +111,32 @@ body{
     }
 }
 
+#wallet-connecting-button{
+    text-decoration: none;
+    height: 3rem;
+    width: 40%;
+    margin-top: 1rem;
+    >button{
+        height: 100%;
+        width: 100%;
+        border: none;
+        outline: none;
+        background-color: #2857bd;
+        color: white;
+        font-size: large;
+        font-weight: 700;
+        letter-spacing: 2px;
+        border-radius: 2rem;
+        transition: all 0.4s cubic-bezier(0.445, 0.05, 0.55, 0.95);
+        &:hover{
+            cursor: pointer;
+            background-color: #3977ff;
+            color: rgb(255, 255, 255);
+            font-size: large;
+        }
+    }
+}
+
 @media screen and (max-width:912px) {
     .headback{
         width: 100%;
@@ -141,3 +167,4 @@ body{
         left: 0;
     }
 }
+

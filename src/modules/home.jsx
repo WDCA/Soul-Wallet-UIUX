@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Home = () => {
     // use these hooks to change the value of data
-    const [did,setdid] = useState("Lorem ipsum dolor sit amet.");
+    const [did,setdid] = useState("none");
     const [idq,setidq] = useState(0);
   return (
     <div className='parent-div'>
@@ -20,6 +20,7 @@ const Home = () => {
                 <h1>My Soul</h1>
                 <h3>Your DID: {did}</h3>
                 <h3>Your IDQ Token: {idq}</h3>
+                <Link id='wallet-connecting-button' to={'https://community.metamask.io/t/log-in-to-meta-mask/17904'}> <button>Aptos</button> </Link>
             </div>
             <div className="contacts">
                 <h3>Contacts</h3>
@@ -30,6 +31,7 @@ const Home = () => {
                     <Link to={'https://twitter.com/i/flow/login'}><i class="fa-brands fa-twitter"></i></Link>
                 </div>
             </div>
+            
         </div>
     </div>
   )
