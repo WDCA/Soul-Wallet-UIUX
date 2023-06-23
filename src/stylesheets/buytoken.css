@@ -72,6 +72,8 @@ body{
     bottom: 3%;
     transform: translate(-50%);
     transition: all 0.4s;
+    color: white;
+    letter-spacing: 1px;
 }
 
 .nothing{
