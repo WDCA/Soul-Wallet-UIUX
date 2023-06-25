@@ -20,8 +20,8 @@ const Home = () => {
                 <h1>My Soul</h1>
                 <h3>Your DID: {did}</h3>
                 <h3>Your IDQ Token: {idq}</h3>
-                <Link id='wallet-connecting-button' to={'https://community.metamask.io/t/log-in-to-meta-mask/17904'}> <button>Aptos</button> </Link>
             </div>
+            <Link id='wallet-connecting-button' to={'https://community.metamask.io/t/log-in-to-meta-mask/17904'}> <button>Tive ◎</button> </Link>
             <div className="contacts">
                 <h3>Contacts</h3>
                 <div className="media">

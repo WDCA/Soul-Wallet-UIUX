@@ -7,8 +7,9 @@ body{
 .basebox{
     position: absolute;
     height: 100%;
-    width: 100%;
+    width: 85%;
     top: 0;
+    left: 12%;
     background-color: #050505;
     display: flex;
     flex-direction: column;
@@ -66,11 +67,11 @@ body{
 .coininfo{
     height: 2rem;
     width: 100%;
-    background-color: #fbfaf5;
+    background-color: #ffffff62;
     display: flex;
     align-items: center;
     padding-left: 20px;
-    color: #333332;
+    color: #ffffff;
     border-color: rgb(188, 188, 188);
     box-shadow: 0px 2px #88888859;
     cursor: pointer;
@@ -78,7 +79,8 @@ body{
     transition: 0.4s;
     &:hover{
         background-color: white;
-        margin-left: 20px;
+        margin-left: 10px;
+        color: #000000;
     }
 }
 
